@@ -1,0 +1,8 @@
+{
+  "name": "aireo-airways",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node preview.mjs", "check": "node --check preview.mjs && node --check dist/app.js && node --check dist/aircraft.js && node --check dist/journey-store.js", "test": "node --test tests.mjs" },
+  "dependencies": { "three": "0.180.0" }
+}
